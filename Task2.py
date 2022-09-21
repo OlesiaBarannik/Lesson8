@@ -1,7 +1,6 @@
 def make_country(name, capital):
     country = {}
-    country['country'] = name
-    country['capital'] = capital
+    country[name] = capital
     return country
 
 my_country = make_country("Ukraine", "Kyiv")
